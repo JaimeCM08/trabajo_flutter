@@ -1,0 +1,29 @@
+# Generated files
+.dart_tool/
+.packages
+build/
+*.g.dart
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Platform-specific files
+android/
+ios/
+web/
+windows/
+linux/
+macos/
+
+# Test files
+test/
+.test_coverage/
+coverage/
+
+# Miscellaneous
+*.log
+.DS_Store
