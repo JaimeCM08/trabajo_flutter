@@ -223,7 +223,7 @@ class _ContactsScreenState extends State<ContactsScreen> {
                           const SizedBox(height: 2),
                           Text(
                             contact.relation!,
-                            style: TextStyle(
+                            style: const TextStyle(
                               color: AppColors.primaryGreen,
                               fontSize: 12,
                             ),

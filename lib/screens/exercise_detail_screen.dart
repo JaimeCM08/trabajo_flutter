@@ -174,7 +174,7 @@ class ExerciseDetailScreen extends StatelessWidget {
                       padding: const EdgeInsets.all(16),
                       child: Row(
                         children: [
-                          Icon(
+                          const Icon(
                             Icons.lightbulb_outline,
                             color: AppColors.primaryGreen,
                             size: 28,
