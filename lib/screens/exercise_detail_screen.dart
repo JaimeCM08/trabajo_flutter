@@ -183,8 +183,8 @@ class ExerciseDetailScreen extends StatelessWidget {
                           Expanded(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
-                                Text(
+                              children: [
+                                const Text(
                                   'Consejo',
                                   style: TextStyle(
                                     fontSize: 16,
@@ -192,8 +192,8 @@ class ExerciseDetailScreen extends StatelessWidget {
                                     color: AppColors.textPrimary,
                                   ),
                                 ),
-                                SizedBox(height: 4),
-                                Text(
+                                const SizedBox(height: 4),
+                                const Text(
                                   'Practica regularmente para obtener mejores resultados',
                                   style: TextStyle(
                                     fontSize: 14,
