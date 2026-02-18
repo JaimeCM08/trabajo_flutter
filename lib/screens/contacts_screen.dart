@@ -93,7 +93,7 @@ class _ContactsScreenState extends State<ContactsScreen> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(
+                  const Icon(
                     Icons.contacts_outlined,
                     size: 80,
                     color: AppColors.textHint,

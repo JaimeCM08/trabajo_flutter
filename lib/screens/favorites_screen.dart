@@ -67,7 +67,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(
+                  const Icon(
                     Icons.favorite_border,
                     size: 80,
                     color: AppColors.textHint,

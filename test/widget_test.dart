@@ -19,6 +19,6 @@ void main() {
     
     // Find the login button
     final loginButton = find.text('Iniciar Sesión');
-    expect(loginButton, findsWidgets);
+    expect(loginButton, findsOneWidget);
   });
 }
